@@ -45,6 +45,38 @@ public class SpellingBee {
         // TODO sort words!
 
         // TODO what position in the sorted list is the word "search" ?
+         Arrays.sort(words);
+        int n = 0;
+        for(String word:words) {
+            n++;
+            if(word.equals("potato")) {
+                System.out.println("found potato at " +n) ;
+            }
+        }
+        String findMe = "search";
+        int begin = 0;
+        int end = words.length-1;
+        int guess = (begin+end)/2;
+        int check = words[guess].compareTo[findMe];
+        System.out.println("word is "=words[guess]);
+        System.out.println("check is " +check);
 
+        begin = guess;
+        guess = (begin+end)/2;
+        check = words[guess].compareTo[findMe];
+        System.out.println("word is "=words[guess]);
+        System.out.println("check is " +check);
+        loop {
+            if(check < 0) {
+                begin = guess;
+            }else if(check > 0){
+                end = guess;
+            }
+            guess = (begin+end)/2;
+            check = words[guess].compareTo[findMe];
+        System.out.println("word is "=words[guess]);
+        System.out.println("check is " +check);
+         }
+       }
     }
 }
