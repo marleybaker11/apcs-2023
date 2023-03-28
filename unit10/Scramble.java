@@ -79,7 +79,16 @@ public class Scramble {
      * @param arr array of integers to shuffle
      */
     public static void shuffle(int arr[]) {
-        // TODO
+        int n = arr.length;
+        for(int i = n - 1; i >= 1; i--){
+            int j = (int)(Math.random() * (i+1));
+            int temp = arr[j];
+            arr[j] = arr[i];
+            arr[i] = temp;
+        }
+// for i from n−1 downto 1 do
+//      j ← random integer such that 0 ≤ j ≤ i
+//      exchange a[j] and a[i]
     }
 
     public static void main(String args[]) {
