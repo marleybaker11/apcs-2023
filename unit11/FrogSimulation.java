@@ -53,10 +53,20 @@ public class FrogSimulation {
      * simulation;
      * false otherwise.
      */
-    public boolean simulate() {
-        /* to be implemented in part (a) */
-        return false; // replace me!
+    public boolean simulate(){
+        int position = 0;
+        for (int count = 0; count < maxHops; count++){
+            position += hopDistance();
+            if (position >= goalDistance){
+            return true;
+            }
+            else if (position < 0){
+            return false;
+        }
     }
+    return false;
+}
+
 
     /**
      * Runs num simulations and returns the proportion of simulations in which the
@@ -65,8 +75,14 @@ public class FrogSimulation {
      * Precondition: num > 0
      */
     public double runSimulations(int num) {
-        /* to be implemented in part (b) */
-        return -1; // replace me!
+        int countSuccess = 0;
+        
+        for(int count = 0; count < num; count++) {
+            if(simulate()){
+                countSuccess++;
+            }
+        }
+        return (double)countSuccess / num;
     }
 
     public static void check(boolean test) throws AssertionError {
