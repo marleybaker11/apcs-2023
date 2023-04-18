@@ -1,4 +1,5 @@
 package unit11;
+import unit10.Recur;
 
 public class EulerFriday {
 
@@ -7,12 +8,56 @@ public class EulerFriday {
         // 1
         int sum = 0;
         for (int i = 0; i < 1000; i++) {
-
+            if(i % 3 == 0 || i % 5 == 0){
+                sum += 1;
+            }
         }
-        System.out.println(sum);
+        //System.out.println(sum);
 
         // 2
+        sum = 0;
+        int a = 1;
+        int b = 2;
+        while(b < 4000000){
+            if(b % 2 == 0){
+                sum += b;
+            }
+            int c = a + b;
+            a = b;
+            b = c;
+            if(b % 2 == 0){
+                sum += b;
+            }
+        //System.out.println(sum);
+        }
 
+        // 3
+        long factorMe = 600851475143l;
+        int factor = 2;
+        while(factorMe > factor){
+            if(factorMe % factor == 0){
+                factorMe /= factor; 
+            }
+            else {
+                factor++;
+            }
+        }
+        //System.out.println(factor);
+
+        // 4
+        int largestPal = 0;
+        for(int i = 100; i <= 999; i++){
+            for(int o = 100; o <= 999; o++){
+                int product = i * o;
+                String productString = Integer.toString(product);
+                if(Recur.pot(productString)){
+                    if(product > largestPal){
+                        largestPal = product;
+                    }
+                }
+            }
+        }
+        //System.out.println(largestPal);
     }
 
     static int[] prob8scaffold() {
@@ -49,4 +94,15 @@ public class EulerFriday {
         return nums;
     }
 
+    public int GCD(int a, int b){
+        if(a % b == 0){
+            return b;
+        }
+        else {
+            return GCD(b , a % b);
+        }
+    }
+    public int LCM(int a, int b){
+        return(a * b)/ GCD(a,b);
+    }
 }
