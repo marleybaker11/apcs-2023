@@ -43,9 +43,9 @@ public class Bucket {
         // value = 5;
         System.out.println(value);
 
-        // System.out.println("Within method:");
-        // updateValue(value);
-        // System.out.println(value);
+        System.out.println("Within method:");
+        updateValue(value);
+        System.out.println(value);
 
         // System.out.println("Within bucket:");
         // Bucket b = new Bucket(value);
