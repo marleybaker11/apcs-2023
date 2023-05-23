@@ -1,8 +1,3 @@
-/*
-Marley Baker
-1/30/23
-Activity 4
- */
  import core.data.*;
  import java.util.ArrayList;
  import java.util.Scanner;
@@ -20,7 +15,7 @@ public class Stats{
       ds.load();
       ArrayList<Stats> allQuarterbacks = ds.fetchList("Stats", "Name", "Team", "Year", "Passes Attempted", "Completion Percentage");
       Scanner keyboard = new Scanner(System.in);
-      System.out.println("Enter year: ");
+      System.out.print("Enter year: ");
       int date = keyboard.nextInt();
       Stats bestGuy = getBest(allQuarterbacks, date);
       System.out.println(bestGuy);
