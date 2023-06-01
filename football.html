@@ -11,7 +11,7 @@ body {
   font-family: Garamond;
 }
 body {
-  font-size: 20px;
+  font-size: 18px;
 }
   </style>
 </head>
@@ -32,7 +32,13 @@ body {
 
   <section id="home">
     <h2>Home</h2>
-    <p>This is the homepage of the American Football website. Here you can find the latest news, updates, and featured content about American football.</p>
+    <p>The National Football League (NFL) is a professional American football league that consists of 32 teams, divided equally between the American Football Conference (AFC) 
+      and the National Football Conference (NFC). The NFL is one of the major professional sports leagues in the United States and Canada and the highest professional level of 
+      American football in the world. The league is headquartered in New York City. Each NFL season begins with a three-week preseason in August, followed by the 18-week 
+      regular season which runs from early September to early January, with each team playing 17 games and having one bye week. Following the conclusion of the regular season,
+      seven teams from each conference (four division winners and three wild card teams) advance to the playoffs, a single-elimination tournament that culminates in the Super 
+      Bowl, which is contested in February and is played between the AFC and NFC conference champions.
+      </p>
   </section>
 
   <section id="teams">
@@ -111,48 +117,22 @@ body {
   </section>
 
   <section id="players">
-    <h2>Players</h2>
-    <p>Display information about popular American football players. Include their names, positions, achievements, and maybe even some statistics.</p>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Position</th>
-        <th>Achievements</th>
-      </tr>
-      <tr>
-        <td>Player 1</td>
-        <td>Quarterback</td>
-        <td>Super Bowl MVP</td>
-      </tr>
-      <tr>
-        <td>Player 2</td>
-        <td>Wide Receiver</td>
-        <td>All-Pro Selection</td>
-      </tr>
-      <tr>
-        <td>Player 3</td>
-        <td>Linebacker</td>
-        <td>Defensive Player of the Year</td>
-      </tr>
-    </table>
+    <h2>Best Quarterbacks</h2>
+    <p>Input a year and it will give you the quarterback with the best completion percentage for that year.</p>
+    <label for="year">Choose a year:</label>
+<select name="year" id="years">
+</select>
+<input type="submit" value="Submit">
+<p>The best quarterback is Johnson</p>
   </section>
+<script>
+ var select = document.getElementById("years");
+for (var year = 2016; year >= 1925; year--) {
+  var option = document.createElement("option");
+  option.text = year;
+  option.value = year;
+  select.appendChild(option);
+}
+</script>
 
-  <section id="matches">
-    <h2>Matches</h2>
-    <p>Provide updates about upcoming American football matches, game schedules, and match results. You can use tables or other elements to present the information.</p>
-    <h3>Upcoming Matches</h3>
-    <ul>
-      <li>Match 1 - Team A vs. Team B</li>
-      <li>Match 2 - Team C vs. Team D</li>
-      <li>Match 3 - Team E vs. Team F</li>
-    </ul>
-  </section>
 
-  <section id="news">
-    <h2>News</h2>
-    <p>Stay updated with the latest news and happenings in the world of American football.</p>
-    <h3>Recent News</h3>
-    <ul>
-      <li>News 1 - Trade Rumors</li>
-      <li>News 2 - Injury Updates</li>
-      <li>News 3 - Coaching Changes</li>
