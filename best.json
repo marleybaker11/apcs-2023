@@ -1,0 +1,583 @@
+[
+    {
+      "Name": "Newman, Harry",
+      "Team": "New York Giants",
+      "Year": 1933,
+      "Attempts": 136,
+      "Percent": 39
+    },
+    {
+      "Name": "Danowski, Ed",
+      "Team": "New York Giants",
+      "Year": 1935,
+      "Attempts": 113,
+      "Percent": 50.4
+    },
+    {
+      "Name": "Matesic, Ed",
+      "Team": "Pittsburgh Pirates",
+      "Year": 1936,
+      "Attempts": 138,
+      "Percent": 46.4
+    },
+    {
+      "Name": "Danowski, Ed",
+      "Team": "New York Giants",
+      "Year": 1937,
+      "Attempts": 134,
+      "Percent": 49.3
+    },
+    {
+      "Name": "Danowski, Ed",
+      "Team": "New York Giants",
+      "Year": 1938,
+      "Attempts": 129,
+      "Percent": 54.3
+    },
+    {
+      "Name": "Hall, Parker",
+      "Team": "Cleveland Rams",
+      "Year": 1939,
+      "Attempts": 208,
+      "Percent": 51
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1940,
+      "Attempts": 177,
+      "Percent": 62.7
+    },
+    {
+      "Name": "Isbell, Cecil",
+      "Team": "Green Bay Packers",
+      "Year": 1941,
+      "Attempts": 206,
+      "Percent": 56.8
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1942,
+      "Attempts": 225,
+      "Percent": 58.7
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1943,
+      "Attempts": 239,
+      "Percent": 55.6
+    },
+    {
+      "Name": "Filchock, Frank",
+      "Team": "Washington Redskins",
+      "Year": 1944,
+      "Attempts": 147,
+      "Percent": 57.1
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1945,
+      "Attempts": 182,
+      "Percent": 70.3
+    },
+    {
+      "Name": "Thompson, Tommy",
+      "Team": "Philadelphia Eagles",
+      "Year": 1946,
+      "Attempts": 103,
+      "Percent": 55.3
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1947,
+      "Attempts": 354,
+      "Percent": 59.3
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1948,
+      "Attempts": 315,
+      "Percent": 58.7
+    },
+    {
+      "Name": "Baugh, Sammy",
+      "Team": "Washington Redskins",
+      "Year": 1949,
+      "Attempts": 255,
+      "Percent": 56.9
+    },
+    {
+      "Name": "Waterfield, Bob",
+      "Team": "Los Angeles Rams",
+      "Year": 1950,
+      "Attempts": 213,
+      "Percent": 57.3
+    },
+    {
+      "Name": "Thomason, Bobby",
+      "Team": "Green Bay Packers",
+      "Year": 1951,
+      "Attempts": 221,
+      "Percent": 56.6
+    },
+    {
+      "Name": "Van Brocklin, Norm",
+      "Team": "Los Angeles Rams",
+      "Year": 1952,
+      "Attempts": 205,
+      "Percent": 55.1
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "San Francisco 49ers",
+      "Year": 1953,
+      "Attempts": 259,
+      "Percent": 57.5
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "San Francisco 49ers",
+      "Year": 1954,
+      "Attempts": 295,
+      "Percent": 57.6
+    },
+    {
+      "Name": "Layne, Bobby",
+      "Team": "Detroit Lions",
+      "Year": 1955,
+      "Attempts": 270,
+      "Percent": 53
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "San Francisco 49ers",
+      "Year": 1956,
+      "Attempts": 218,
+      "Percent": 56.9
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "San Francisco 49ers",
+      "Year": 1957,
+      "Attempts": 279,
+      "Percent": 63.1
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "San Francisco 49ers",
+      "Year": 1958,
+      "Attempts": 208,
+      "Percent": 57.7
+    },
+    {
+      "Name": "Wade, Billy",
+      "Team": "Los Angeles Rams",
+      "Year": 1959,
+      "Attempts": 261,
+      "Percent": 58.6
+    },
+    {
+      "Name": "Wade, Billy",
+      "Team": "Los Angeles Rams",
+      "Year": 1960,
+      "Attempts": 182,
+      "Percent": 58.2
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "New York Giants",
+      "Year": 1961,
+      "Attempts": 285,
+      "Percent": 57.2
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Dallas Texans",
+      "Year": 1962,
+      "Attempts": 310,
+      "Percent": 61
+    },
+    {
+      "Name": "Tittle, Y.A.",
+      "Team": "New York Giants",
+      "Year": 1963,
+      "Attempts": 367,
+      "Percent": 60.2
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Kansas City Chiefs",
+      "Year": 1964,
+      "Attempts": 354,
+      "Percent": 56.2
+    },
+    {
+      "Name": "Unitas, Johnny",
+      "Team": "Baltimore Colts",
+      "Year": 1965,
+      "Attempts": 282,
+      "Percent": 58.2
+    },
+    {
+      "Name": "Nelsen, Bill",
+      "Team": "Pittsburgh Steelers",
+      "Year": 1966,
+      "Attempts": 112,
+      "Percent": 56.3
+    },
+    {
+      "Name": "Unitas, Johnny",
+      "Team": "Baltimore Colts",
+      "Year": 1967,
+      "Attempts": 436,
+      "Percent": 58.5
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Kansas City Chiefs",
+      "Year": 1968,
+      "Attempts": 224,
+      "Percent": 58.5
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Kansas City Chiefs",
+      "Year": 1969,
+      "Attempts": 166,
+      "Percent": 59
+    },
+    {
+      "Name": "Landry, Greg",
+      "Team": "Detroit Lions",
+      "Year": 1970,
+      "Attempts": 136,
+      "Percent": 61
+    },
+    {
+      "Name": "Carter, Virgil",
+      "Team": "Cincinnati Bengals",
+      "Year": 1971,
+      "Attempts": 222,
+      "Percent": 62.2
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Kansas City Chiefs",
+      "Year": 1972,
+      "Attempts": 305,
+      "Percent": 57.4
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Kansas City Chiefs",
+      "Year": 1973,
+      "Attempts": 101,
+      "Percent": 65.3
+    },
+    {
+      "Name": "Anderson, Ken",
+      "Team": "Cincinnati Bengals",
+      "Year": 1974,
+      "Attempts": 328,
+      "Percent": 64.9
+    },
+    {
+      "Name": "Dawson, Len",
+      "Team": "Kansas City Chiefs",
+      "Year": 1975,
+      "Attempts": 140,
+      "Percent": 66.4
+    },
+    {
+      "Name": "Tarkenton, Fran",
+      "Team": "Minnesota Vikings",
+      "Year": 1976,
+      "Attempts": 412,
+      "Percent": 61.9
+    },
+    {
+      "Name": "Fouts, Dan",
+      "Team": "San Diego Chargers",
+      "Year": 1977,
+      "Attempts": 109,
+      "Percent": 63.3
+    },
+    {
+      "Name": "Manning, Archie",
+      "Team": "New Orleans Saints",
+      "Year": 1978,
+      "Attempts": 471,
+      "Percent": 61.8
+    },
+    {
+      "Name": "Fouts, Dan",
+      "Team": "San Diego Chargers",
+      "Year": 1979,
+      "Attempts": 530,
+      "Percent": 62.6
+    },
+    {
+      "Name": "Manning, Archie",
+      "Team": "New Orleans Saints",
+      "Year": 1980,
+      "Attempts": 509,
+      "Percent": 60.7
+    },
+    {
+      "Name": "Anderson, Ken",
+      "Team": "Cincinnati Bengals",
+      "Year": 1981,
+      "Attempts": 479,
+      "Percent": 62.6
+    },
+    {
+      "Name": "Anderson, Ken",
+      "Team": "Cincinnati Bengals",
+      "Year": 1982,
+      "Attempts": 309,
+      "Percent": 70.6
+    },
+    {
+      "Name": "Anderson, Ken",
+      "Team": "Cincinnati Bengals",
+      "Year": 1983,
+      "Attempts": 297,
+      "Percent": 66.7
+    },
+    {
+      "Name": "Bartkowski, Steve",
+      "Team": "Atlanta Falcons",
+      "Year": 1984,
+      "Attempts": 269,
+      "Percent": 67.3
+    },
+    {
+      "Name": "Bartkowski, Steve",
+      "Team": "Atlanta Falcons",
+      "Year": 1985,
+      "Attempts": 111,
+      "Percent": 62.2
+    },
+    {
+      "Name": "O'Brien, Ken",
+      "Team": "New York Jets",
+      "Year": 1986,
+      "Attempts": 482,
+      "Percent": 62.2
+    },
+    {
+      "Name": "Kosar, Bernie",
+      "Team": "Cleveland Browns",
+      "Year": 1987,
+      "Attempts": 389,
+      "Percent": 62
+    },
+    {
+      "Name": "Kosar, Bernie",
+      "Team": "Cleveland Browns",
+      "Year": 1988,
+      "Attempts": 259,
+      "Percent": 60.2
+    },
+    {
+      "Name": "Harbaugh, Jim",
+      "Team": "Chicago Bears",
+      "Year": 1989,
+      "Attempts": 178,
+      "Percent": 62.4
+    },
+    {
+      "Name": "Kelly, Jim",
+      "Team": "Buffalo Bills",
+      "Year": 1990,
+      "Attempts": 346,
+      "Percent": 63.3
+    },
+    {
+      "Name": "Aikman, Troy",
+      "Team": "Dallas Cowboys",
+      "Year": 1991,
+      "Attempts": 363,
+      "Percent": 65.3
+    },
+    {
+      "Name": "Young, Steve",
+      "Team": "San Francisco 49ers",
+      "Year": 1992,
+      "Attempts": 402,
+      "Percent": 66.7
+    },
+    {
+      "Name": "Aikman, Troy",
+      "Team": "Dallas Cowboys",
+      "Year": 1993,
+      "Attempts": 392,
+      "Percent": 69.1
+    },
+    {
+      "Name": "Young, Steve",
+      "Team": "San Francisco 49ers",
+      "Year": 1994,
+      "Attempts": 461,
+      "Percent": 70.3
+    },
+    {
+      "Name": "Kosar, Bernie",
+      "Team": "Miami Dolphins",
+      "Year": 1995,
+      "Attempts": 108,
+      "Percent": 68.5
+    },
+    {
+      "Name": "Young, Steve",
+      "Team": "San Francisco 49ers",
+      "Year": 1996,
+      "Attempts": 316,
+      "Percent": 67.7
+    },
+    {
+      "Name": "Young, Steve",
+      "Team": "San Francisco 49ers",
+      "Year": 1997,
+      "Attempts": 356,
+      "Percent": 67.7
+    },
+    {
+      "Name": "Johnson, Brad",
+      "Team": "Minnesota Vikings",
+      "Year": 1998,
+      "Attempts": 101,
+      "Percent": 64.4
+    },
+    {
+      "Name": "Warner, Kurt",
+      "Team": "St. Louis Rams",
+      "Year": 1999,
+      "Attempts": 499,
+      "Percent": 65.1
+    },
+    {
+      "Name": "Warner, Kurt",
+      "Team": "St. Louis Rams",
+      "Year": 2000,
+      "Attempts": 347,
+      "Percent": 67.7
+    },
+    {
+      "Name": "Warner, Kurt",
+      "Team": "St. Louis Rams",
+      "Year": 2001,
+      "Attempts": 546,
+      "Percent": 68.7
+    },
+    {
+      "Name": "Pennington, Chad",
+      "Team": "New York Jets",
+      "Year": 2002,
+      "Attempts": 399,
+      "Percent": 68.9
+    },
+    {
+      "Name": "Manning, Peyton",
+      "Team": "Indianapolis Colts",
+      "Year": 2003,
+      "Attempts": 566,
+      "Percent": 67
+    },
+    {
+      "Name": "Manning, Peyton",
+      "Team": "Indianapolis Colts",
+      "Year": 2004,
+      "Attempts": 497,
+      "Percent": 67.6
+    },
+    {
+      "Name": "Martin, Jamie",
+      "Team": "St. Louis Rams",
+      "Year": 2005,
+      "Attempts": 177,
+      "Percent": 70.1
+    },
+    {
+      "Name": "Carr, David",
+      "Team": "Houston Texans",
+      "Year": 2006,
+      "Attempts": 442,
+      "Percent": 68.3
+    },
+    {
+      "Name": "Brady, Tom",
+      "Team": "New England Patriots",
+      "Year": 2007,
+      "Attempts": 578,
+      "Percent": 68.9
+    },
+    {
+      "Name": "Pennington, Chad",
+      "Team": "Miami Dolphins",
+      "Year": 2008,
+      "Attempts": 476,
+      "Percent": 67.4
+    },
+    {
+      "Name": "Brees, Drew",
+      "Team": "New Orleans Saints",
+      "Year": 2009,
+      "Attempts": 514,
+      "Percent": 70.6
+    },
+    {
+      "Name": "Brees, Drew",
+      "Team": "New Orleans Saints",
+      "Year": 2010,
+      "Attempts": 658,
+      "Percent": 68.1
+    },
+    {
+      "Name": "Brees, Drew",
+      "Team": "New Orleans Saints",
+      "Year": 2011,
+      "Attempts": 657,
+      "Percent": 71.2
+    },
+    {
+      "Name": "Smith, Alex",
+      "Team": "San Francisco 49ers",
+      "Year": 2012,
+      "Attempts": 218,
+      "Percent": 70.2
+    },
+    {
+      "Name": "Rivers, Philip",
+      "Team": "San Diego Chargers",
+      "Year": 2013,
+      "Attempts": 544,
+      "Percent": 69.5
+    },
+    {
+      "Name": "McCoy, Colt",
+      "Team": "Washington Redskins",
+      "Year": 2014,
+      "Attempts": 128,
+      "Percent": 71.1
+    },
+    {
+      "Name": "Cousins, Kirk",
+      "Team": "Washington Redskins",
+      "Year": 2015,
+      "Attempts": 543,
+      "Percent": 69.8
+    },
+    {
+      "Name": "Bradford, Sam",
+      "Team": "Minnesota Vikings",
+      "Year": 2016,
+      "Attempts": 552,
+      "Percent": 71.6
+    }
+  ]

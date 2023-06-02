@@ -13,6 +13,9 @@ body {
 body {
   font-size: 18px;
 }
+th {
+        text-align: center;
+      }
   </style>
 </head>
 <body>
@@ -45,14 +48,14 @@ body {
     <h2>Teams</h2>
     <table>
       <tr>
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp AFC North &nbsp&nbsp&nbsp&nbsp&nbsp</th>    
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp AFC East &nbsp&nbsp&nbsp&nbsp&nbsp</th>
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp AFC South &nbsp&nbsp&nbsp&nbsp&nbsp</th>
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp AFC West &nbsp&nbsp&nbsp&nbsp&nbsp</th>
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp NFC North &nbsp&nbsp&nbsp&nbsp&nbsp</th>
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp NFC East &nbsp&nbsp&nbsp&nbsp&nbsp</th>  
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp NFC South &nbsp&nbsp&nbsp&nbsp&nbsp</th>        
-        <th>&nbsp&nbsp&nbsp&nbsp&nbsp NFC West &nbsp&nbsp&nbsp&nbsp&nbsp</th>
+        <th>AFC North</th>    
+        <th>AFC East</th>
+        <th>AFC South</th>
+        <th>AFC West</th>
+        <th>NFC North</th>
+        <th>NFC East</th>  
+        <th>NFC South</th>        
+        <th>NFC West</th>
       </tr>
     <tr>
       <td>
@@ -118,12 +121,11 @@ body {
 
   <section id="players">
     <h2>Best Quarterbacks</h2>
-    <p>Input a year and it will give you the quarterback with the best completion percentage for that year.</p>
+    <p>Input a year and it will give you the quarterback with the best completion percentage for that year(Min 100 attempts).</p>
     <label for="year">Choose a year:</label>
 <select name="year" id="years">
 </select>
-<input type="submit" value="Submit">
-<p>The best quarterback is Johnson</p>
+<p id = "result">The best quarterback is Johnson</p>
   </section>
 <script>
  var select = document.getElementById("years");
@@ -133,6 +135,31 @@ for (var year = 2016; year >= 1925; year--) {
   option.value = year;
   select.appendChild(option);
 }
+
+var bestGuys;
+      fetch("best.json")
+        .then((response) => response.json())
+        .then((data) => {
+          bestGuys = data;
+        });
+
+      document.getElementById("years").addEventListener("change", function () {
+        // update result paragraph
+        var result = document.getElementById("result");
+        var foundSom = false;
+        for (var i = 0; i < bestGuys.length; i++) {
+          if (bestGuys[i].Year == this.value) {
+            foundSom = true;
+            result.innerHTML = 
+              "The best quarterback is " +
+              bestGuys[i].Name +
+              " with " +
+              bestGuys[i].Percent +
+              "%";
+          }
+        }
+        if (foundSom == false){
+          result.innerHTML = "There is no quarterback in this year that attempted 100 passes.";
+        }
+      });
 </script>
-
-
