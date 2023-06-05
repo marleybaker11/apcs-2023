@@ -1,4 +1,4 @@
-package Project;
+package project;
  import core.data.*;
 
 import java.io.FileWriter;
