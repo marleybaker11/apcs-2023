@@ -1,4 +1,5 @@
-public class DoubleTrouble {
+package unit11;
+  public class DoubleTrouble {
     private int player1;
     private int player2;
 
